@@ -1,0 +1,11 @@
+
+
+Basic Spells
+
+pwd - Show where you are on the magical map ("printus working directorium")
+ls - Look around for books and rooms ("list")
+cat [book name] - Read a book ("catenate"). For example "cat basic_spells.txt".
+cd - Teleport into a different room ("changus directorium")
+
+TIP: You can sometimes wave the "tab" key to quickly complete a spell or name. Use with caution.
+

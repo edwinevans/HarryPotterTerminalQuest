@@ -1,0 +1,10 @@
+
+
+Great. Now let's put together some things that you have learned!
+
+Make a copy of the MagicalCharm file and then move it into a new hidden room.
+
+HINT: Any file or directory that begins with a period is a hidden
+
+
+

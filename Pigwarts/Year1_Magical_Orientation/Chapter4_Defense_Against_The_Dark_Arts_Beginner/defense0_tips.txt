@@ -1,0 +1,20 @@
+
+
+Hello Mia, your training is going well but you have much to learn before facing an Evil Wizard.
+
+First you can practice battling against Minor Inconvenience when casting spells in the Terminal.
+
+Here are some tips:
+
+   Use tab key to complete words
+   Use up/down arrows to travel through history
+   Use control+a to jump to the beginning of the line
+   Use control+e to jump to the end of the line
+
+You can also use the alias that you created to show what is in the room including hidden files. Perhaps you should give it a shorter name such as "lsa"? Up to you :)
+
+Once you master this you will be able to defeat Minor Inconvenience with nary a thought.
+
+Give it a try.
+
+

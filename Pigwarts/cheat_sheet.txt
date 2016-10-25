@@ -1,0 +1,53 @@
+book = file
+room = directory
+spell = command
+
+Tips
+----
+Up/Down arrows to go backward/forward in time
+Ctrl+a	Go to beginning of command
+Ctrl+e	Go to end of command
+Ctrl+c  Whoops! Cancel what you're doing and start over
+
+Legilemency Spells
+------------------
+ls	List files and directories (Example: ls -laG)
+  -l 	Include details
+  -a 	Include hidden files/directories (ones that start with period)
+  -G 	User colors
+pwd	Print working directory (Example: pwd)
+cat	Read a file (Example: cat apple.txt)
+head	Show beginning of file (Example: head apple.txt)
+tail	Show end of file (Example: tail apple.txt)
+grep	Find text inside a file (Example: grep "seed" "apple.txt")
+
+
+Transfiguration Spells
+----------------------
+mv 	Rename/Move a file (Example: mv apple.txt orange.txt)
+cp  	Copy a file (Example: cp apple.txt orange.txt)
+mkdir	Make a new directory (Example: mkdir fruits)
+alias  	Create an alias (Example: alias daddy="ls -laG")
+
+
+Movement Spells
+---------------
+cd	Change Directory
+		Examples: 
+		cd foo (Go to foo directory)
+		cd ~ (Go to home directory)
+		cd .. (Go back one room - "up a level")
+
+Time Travel
+-----------
+history
+
+
+
+Extra Additions
+---------------
+sublime	Start Sublime text editor
+
+
+
+

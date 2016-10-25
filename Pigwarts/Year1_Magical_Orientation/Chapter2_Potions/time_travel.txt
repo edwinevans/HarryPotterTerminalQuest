@@ -1,0 +1,12 @@
+
+
+Time travel is a dangerous business, but this spell will allow you to view the past:
+
+   SPELL
+   ----
+   history
+
+
+TIP: You can also use the up arrow key to go back in time one command at a time. Give it a try.
+
+

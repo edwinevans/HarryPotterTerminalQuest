@@ -1,0 +1,14 @@
+
+ls is kinda boring but it has hidden powers. Try these variations
+
+   SPELL
+   ---
+   ls -l
+   ls -a
+   ls -la
+   ls -laG
+
+See anything different with "ls -laG" versus "ls -la"?
+
+Ah, so many options to master.
+

@@ -1,0 +1,15 @@
+
+
+To create a new room there is an easy spell you can cast.
+
+   SPELL
+   ---
+   mkdir <name_of_directory>
+
+   EXAMPLE
+   ---
+   mkdir temporary
+
+Give it a try.
+
+

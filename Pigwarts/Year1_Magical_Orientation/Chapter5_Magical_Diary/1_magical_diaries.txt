@@ -1,0 +1,13 @@
+When is a book not just a book? When it is a magical diary.
+
+The cat spell can see inside a book. Sure you can read a book, but what if you want to enter into the universe of the book? And be able to transform it? Wouldn't that be sublime?
+
+Try using the "sublime" spell instead of "cat" and see what happens.
+
+Example:
+
+  sublime 2_DefeatingMoreMinorInconveniences.txt
+
+Inside sublime, browse through the menu to see what you can do. Select "Quit Sublime Text" to leave the book universe.
+
+

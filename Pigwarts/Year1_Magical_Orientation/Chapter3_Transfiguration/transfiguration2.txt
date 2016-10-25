@@ -1,0 +1,11 @@
+
+
+Try putting together what you learned in ls_variations and aliases.
+
+See if you can create a new spell that will list all the files and color code them all in a single spell.
+
+Using alias you can create new spells where a small flick of your wand can invoke Great Power.
+
+Good luck Mia!
+
+

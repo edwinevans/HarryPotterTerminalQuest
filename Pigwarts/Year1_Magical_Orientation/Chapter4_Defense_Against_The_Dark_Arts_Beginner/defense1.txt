@@ -1,0 +1,17 @@
+
+
+To keep something safe it can help to make a duplicate copy of it.
+
+   SPELL
+   ----
+   cp <source> <destination>
+
+
+   EXAMPLE
+   ----
+   cp "existing_file.txt" "copy_of_existing_file.txt"
+
+
+This spell works great on books, but don't try it on a room (yet!). And unfortunately it doesn't work on Galleons or other money. Or maybe this is fortunate -- money wouldn't work very well if you could just copy it!
+
+

@@ -1,0 +1,13 @@
+Now for something NEW
+
+You have learned the basic spells, but you are a special magical girl. You can make your own spells, more powerful than anything you have seen as of yet. They are limited only by your imagination.
+
+One way to create more advanced spells is using the python spell.
+
+Try typing:
+
+python snake1.py
+python snake2.py
+
+Now try making a spell that prints something out a bunch of times. This is a momentous point in your journey. Have fun!
+

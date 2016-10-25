@@ -1,0 +1,8 @@
+When you see files named .py they are probably advanced spells. 
+
+You can see what they do using the python spell.
+
+You can see how they are cast using sublime.
+
+Try them out. Until you get to advanced, all the spells are safe.
+ 

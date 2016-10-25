@@ -1,0 +1,6 @@
+The alias spell and up/down arrows is sure nice. Here is another one:
+
+Try typing something in Hogwarts universe and before pressing Enter key, hold down the control key and press the C key. If you did it right it will ignore what you typed and you can start over.
+
+Control+C is useful for escaping from many sticky situations where you just want to say "whoops!" and go back to what you were doing before.
+

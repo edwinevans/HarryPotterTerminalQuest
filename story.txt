@@ -1,0 +1,13 @@
+
+Enter Pigwart's if you dare to start your adventure!
+
+Your owl should have taught you the spell:
+
+  cd - Transport into a different room
+
+Try that!
+
+Type:
+
+  cd Pigwarts
+

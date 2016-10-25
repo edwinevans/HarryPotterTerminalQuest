@@ -1,0 +1,24 @@
+
+
+Sometimes when doing detective work it helps to appear to be something you are not.
+
+The following spell will allow you to use other magical words to invoke the same spells you have already learned.
+
+   SPELL
+   -----
+   alias
+
+   HOW TO USE
+   -----
+   alias <new word> = "<existing spell>"
+
+   EXAMPLE:
+   -----
+   alias read="cat"
+   alias dog="cat"
+
+Can you "dog" a file? Give it a try!
+
+You can also just type alias to reveal all the existing aliases.
+
+
