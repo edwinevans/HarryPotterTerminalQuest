@@ -1,0 +1,14 @@
+Any guess what this will do?
+
+echo "I am a NOUN" | sed 's/NOUN/Koala/'
+
+Try one on your own. ATTENTION, you must follow the pattern EXACTLY including a slash at the end.
+
+Or how about
+
+echo "I am a NOUN_1" > story.txt
+sed 's/NOUN_1/Koala/' story.txt
+
+Well, that's kind of a big clue... but this gives you some idea of the power of > and |
+
+You can string together multiple pipes. Anything you can think to try? You can use any spell that spits out words and pipe it to anything that reads in files.

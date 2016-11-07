@@ -1,0 +1,14 @@
+
+This folder has fruits and vegetables. If you want to see all the fruits you can type: 
+
+	ls | grep fruit.txt
+
+or
+
+	ls *fruit.txt
+
+How can you see all the vegetables? 
+
+How about just the apples (no pineapple)?
+
+How about the fruits that contain seeds?
