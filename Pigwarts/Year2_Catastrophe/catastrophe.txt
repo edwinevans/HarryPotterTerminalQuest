@@ -1,8 +1,8 @@
 Oh no! What is that? Is it a body? It looks like a girl and she isn't moving.
 
-It's Hermione!
+It's Ron!
 
-Her lips have turned green and there's a pot marking on her forehead. Let's look it up in the Big Book of Curses. 
+His lips have turned green and there's a pot marking on his forehead. Let's look it up in the Big Book of Curses. 
 
 Big Book of Curses
 ------
@@ -23,5 +23,5 @@ You should look up how to draw perfectly by searching Google for "python turtle"
 
 This is a HARD challenge so you will need to do a lot of experimenting. You may also need to get some help from Head Wizard Smartledore. 
 
-Good luck and remember that to rescue Herimione *** TIME IS OF THE ESSENSE ***
+Good luck and remember that to rescue Ron *** TIME IS OF THE ESSENSE ***
 
