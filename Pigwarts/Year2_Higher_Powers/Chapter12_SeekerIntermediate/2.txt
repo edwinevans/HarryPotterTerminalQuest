@@ -1,0 +1,11 @@
+A student has tried to cast a secret spell to get illegal access to the forbidden halls.
+
+Do you remeber how to see the spell history? See if you can figure out who attempted to caste the illegal spell named "login". Use the spell you know for searching.
+
+HINT
+
+?hguorht wolf retaw seod tahw
+
+
+
+

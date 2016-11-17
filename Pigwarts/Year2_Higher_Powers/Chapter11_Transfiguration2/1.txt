@@ -1,0 +1,24 @@
+Hi Mia,
+
+Time to get some more terminal power!
+
+First, here's a simple new spell:
+
+	echo
+
+It pretty much does what it sounds like. Give it a try, like:
+
+	echo "helloooo there"
+
+Now for something cool. You can capture the output and put it into a magical diary using the redirect character.
+
+   >
+
+Try:
+
+	echo "Hellllo!" > mydiary.txt
+
+> is a quick way to create books. It will overwrite anything that is there. You can use >> to add new text to the end of the book.
+
+
+

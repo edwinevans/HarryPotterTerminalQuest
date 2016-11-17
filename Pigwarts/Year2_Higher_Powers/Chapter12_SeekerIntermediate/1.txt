@@ -1,0 +1,20 @@
+
+This folder has fruits and vegetables. If you want to see all the fruits you can type: 
+
+	ls | grep fruit.txt
+
+or
+
+	ls *fruit.txt
+
+How can you see all the vegetables? 
+
+How about just the apples (no pineapple)?
+
+How about the fruits that contain seeds?
+
+HINT: You will need to read the files to see the seeds. The answer isn't just to find the file though since things could change in the future. In many spells that take a filename you can use * to mean multiple files that match the pattern.
+
+Here's another one: delete all the fruits (hint: see second example).... 
+
+Now all the veggies. I don't like them anyway.
