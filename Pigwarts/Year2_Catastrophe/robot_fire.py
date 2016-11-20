@@ -32,14 +32,14 @@ def draw_robot():
 
 
 def draw_scene():
-	draw_bridge()
+	#draw_bridge()
 	draw_robot()
 
 
 while True:
 	draw_scene()
-	#sleep(0.1) # Time in seconds.
+	sleep(0.5) # Time in seconds.
 	turtle.clear()
-	frame = frame + 1
+	frame = frame + 2
 
 turtle.done()
