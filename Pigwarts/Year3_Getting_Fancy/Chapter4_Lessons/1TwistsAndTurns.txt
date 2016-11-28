@@ -1,0 +1,59 @@
+
+Turns and twists.
+
+Pigwarts, like Hogwarts, can be a funny place. Corridors sometimes branch off in different directions or loop back where they started. Somtimes you think you're walking around in circles but then the 3rd time around you go somewhere else! It's all very strange/weird/queer/peculiar and so forth.
+
+A strange branch occurs after the word "if" and ends in colon.
+
+Type Python to enter IDLE:
+
+>>> if 1 + 1 == 2:
+>>>		print "yep"
+
+>>> if 1 + 1 == 1:
+>>>		print "huh?"
+
+The part after the "if" is known as an expression. Here is another example:
+
+>>> if guess < combo:
+>>>		guess = guess + 10
+
+Loops also use expressions and can be done to run things multiple times:
+
+>>> # Measure some strings:
+>>> words = ['cat', 'window', 'wall']
+>>> for w in words:
+>>>     print w, len(w) 
+
+"break" can jump out of a look
+
+>>> words = ['cat', 'window', 'wall']
+>>> for w in words:
+>>>     print w, len(w) 
+>>>		if w == 'window':
+>>>			break
+
+Oh no we broke the window, but at least we escaped! I hope we don't have to pay.
+
+Another way to do things multiple times is using "while".
+
+For example:
+
+while True:
+	print "Hello. Goodbye."
+
+This will repeat forever.
+
+
+Summary:
+
+Use "if" to maybe do something.
+Use "for" to do something zero or more times
+Use "while" to keep doing something as long as something is true
+
+
+
+
+
+
+
