@@ -1,0 +1,31 @@
+
+---- Terminal ----
+
+>> Begin by making a copy of this file using the terminal. Give the copy of the file the name "mia.txt", and then edit that file.
+
+>> What is the command to change directories?
+
+>> How can you ADD the current date to the end of a file named foo.txt?
+
+>> How can you create/replace a file to have the contents of the current date
+
+>> How do you clear the terminal?
+
+>> What is a command to get the current path (directory) and make a cow "say" it?
+
+>> How do you see your previous commands?
+
+>> How can you rename foo2.txt to bar.txt?
+
+>> How can you see the end of a file (last few lines)?
+
+>> How can you search for the word "apple" in a file named foo.txt?
+
+>> How can you make it so that you can type "dog" to execute "cat"
+
+
+---- Programming (Python) ----
+
+>> Create a program that 
+
+Once completed, you can return home. Type "getontrain"  

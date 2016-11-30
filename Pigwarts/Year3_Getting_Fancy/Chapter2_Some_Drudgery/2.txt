@@ -1,0 +1,17 @@
+You can loop through the list like:
+
+>>> shopping_list = ["wand", "books", "cauldren", "broomstick"]
+>>> for item in shopping_list:
+...     print item
+
+Oops, we forgot to get milk.
+
+>>> shopping_list.append("milk")
+>>> shopping_list
+['wand', 'books', 'cauldren', 'broomstick', 'milk']
+
+And I'm not sure we really need a cauldren. Let's take it out of the list.
+>>> shopping_list.remove("cauldren")
+
+
+

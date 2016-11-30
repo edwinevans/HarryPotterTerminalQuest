@@ -1,0 +1,29 @@
+
+There's a special stone that will help us to defeat the evil wizard.
+
+But it is heavily guarded.
+
+There is a big growling dog in front of the door. Just when you are about to give up you notice it's asleep and the big growling noises are just snores. You creep by it and jump down the hatch.
+
+In a rush you don't notice the plant underneath you and it starts curling its tenticals around you. You try to think, what do you know about this plant? It's strange that this plant is growing in pitch darkness. Could it be Devil's Snare?
+
+Yes, it is! But how do I fend it off? I remember now. That's it. You have to expose it to light. 
+
+LUMOS. And there is light. Finally! A spell that actually works. The tenticals unwind and you head off on your way.
+
+You come to a room. There are a bunch of keys flying around being generally obnoxious. There is a locked door. "Alamohora" you command in a half-hearted manner, and nothing happens as you expect at this point. Then you try seeing if there's a painting around. No luck. Then you see a small glint. One of the keys is different. Unlike the silver ones this one is a shining gold. How will you get ahold of it. Find "gold*key" item exactly. (See flyingkeys.py. It has a list and one of the items in the list includes the string "gold*key". The item after that is the secret word)
+
+
+
+# Fluffy
+# Plant didn't like sunlight
+# Keys
+# Chess
+# Potions
+# Troll
+# Quirrel
+
+#
+# Basilisk
+
+

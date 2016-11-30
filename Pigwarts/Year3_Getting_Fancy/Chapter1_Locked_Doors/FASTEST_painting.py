@@ -16,7 +16,8 @@ print "x = 3"
 print "y = x # Now y will be 3"
 print ""
 
-combo = random.randrange(1, 100)
+max = 1000 * 1000
+combo = random.randrange(1, max)
 
 # The next door (gasp!!)
 # combo = random.randrange(1, 100000)
@@ -24,16 +25,21 @@ combo = random.randrange(1, 100)
 print "(the number is " + str(combo) + ")"
 print ""
 # ----
-
-guess = 100
+N1 = 1
+N2 = max
+guess = None
+guessNumber = 1
 while True:
-	response = raw_input("Is it " + str(guess) + "? (n)ah (g)ah (y)ah ")
+	guess = ( N2 - N1 ) / 2 + N1
+
+	response = raw_input("Guess " + str(guessNumber) + ": Is it " + str(guess) + " (n)ah (g)ah (y)ah ")
+	guessNumber = guessNumber + 1
 
 	if response == "g":
-		guess = guess - 10
+		N2 = guess
 
 	if response == "n":
-		guess = guess + 1
+		N1 = guess
 
 	if response == "y":
 		break

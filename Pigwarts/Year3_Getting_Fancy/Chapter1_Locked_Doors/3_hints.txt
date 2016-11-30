@@ -1,0 +1,4 @@
+
+HINT: You can hone in on the number by keeping track of the largest number you've tried and the smallest number. You can use 1 variable for each number (e.g. you can start bottom=1 since 1 is the lowest number it could be)
+
+HINT: How do you find the middle point between 2 numbers?

@@ -1,18 +1,16 @@
-# Print the EVEN numbers up to 10
-# and then the ODD numbers up to 10.
-# The output should look like:
-# 2
-# 4
-# 6
-# 8
-# 10
-# 1
-# 3
-# 5
-# 7
-# 9
 #
-# Hint: Use for/range/multiplication
+# Keep printing random numbers until you find one less than 0.1
+# Then print "Eurika!" and exit
+#
+# You can review earlier examples but try to create the whole program yourself without 
+# any hints
+#
 
+import random
 
-
+while True:
+	number = random.random()
+	print number
+	if number < 0.1:
+		print "Eurika!"
+		break

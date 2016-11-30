@@ -1,0 +1,27 @@
+It's time to go shopping.
+
+Let's make a list:
+
+>>> shopping_list = ["wand", "books", "cauldren", "broomstick"]
+
+OK, nice.
+
+What's first on my list?
+
+>>> shopping_list[0] # "wand"
+
+And what's second?
+
+>>> shopping_list[1] # "books"
+>>> shopping_list[2] # "cauldren"
+>>> shopping_list[3] # "broomstick"
+
+Or you can look from the other end using negative numbers.
+
+>>> shopping_list[-1] # "broomstick"
+>>> shopping_list[-2] # "cauldren"
+>>> shopping_list[-3] # "books"
+>>> shopping_list[-4] # "wand"
+
+
+
