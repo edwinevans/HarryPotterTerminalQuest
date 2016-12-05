@@ -1,0 +1,28 @@
+** Pipes **
+
+What is a command to get the current path and count how many letters are in it and make a cow say the number of letters? (Use "wc -m" to get the count of letters)
+
+How many lines are in your "history"?
+
+
+** Redirects **
+
+How can you redirect the output of the command: 
+
+	echo "hello" 
+
+to create a new file called hello.txt
+
+How can you now add "goodbye" to the end of that file (so hello.txt will contain 
+	hello
+	goodbye
+
+
+** Programming **
+
+for, in, range, while, break
+
+
+** Commands **
+
+mv, rm, date, clear, history, cd, grep, head, tail, cat, wc, cowsay, alias

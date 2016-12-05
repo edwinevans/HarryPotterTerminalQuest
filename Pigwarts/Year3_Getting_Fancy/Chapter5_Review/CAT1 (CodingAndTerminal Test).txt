@@ -1,0 +1,53 @@
+
+---- Terminal ----
+
+>> What is the command to change directories?
+cd
+
+>> How do you clear the terminal?
+clear
+
+>> How can you ADD the current date to the end of a file named "foo.txt"?
+date >> foo.txt
+
+>> How can you create/replace a file to have the contents of the current date?
+date > foo.txt
+
+>> How do you see the previous commands that you have executed?
+history or up arrow
+
+>> What is a command to get the current path (directory) AND make a cow say it?
+pwd | cowsay
+
+>> How can you search for the word "apple" in a file named foo.txt?
+grep "apple" foo.txt
+
+>> Search your command history and print out how many lines contain "sublime". You may want
+to use TWO pipes.
+history | grep "sublime" | wc
+
+>> How can you rename a file named foo2.txt to bar.txt?
+mv foo2.txt bar.txt
+
+>> How can you see the end of the contents of a file (last few lines)?
+tail filename
+
+>> How can you make it so that you can type "dog" to execute "cat"
+alias dog = "cat"
+
+>> What is the command to delete a file?
+rm filename           
+
+
+---- Coding (Python) ----
+
+>> Create a program named "add_random_numbers.py" that prints out random numbers until it hits a number greater than 0.8 and then prints out the sum of all the numbers it printed out (including the last one)
+
+
+>> Create a program named "squares.py" that draws a square and spins it around. (You can review the mushroom program from Year2_Catastrophe)
+
+
+---
+
+You're done! You can now go home. Type "get-on-train"  
+
