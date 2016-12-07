@@ -1,0 +1,36 @@
+
+Remember lists?
+
+>>> this_is_a_list = ["Aconite", "Bat blood", "Unicorn Horn"]
+
+There is lots we can do with lists:
+
+>>> this_is_a_list[0]
+'Aconite'
+
+>>> this_is_a_list[0] = "Boom Berry"
+>>> this_is_a_list
+['Boom Berry', 'Bat blood', 'Unicorn Horn']
+
+>>> this_is_a_list.remove("Bat blood")
+>>> this_is_a_list
+['Boom Berry', 'Unicorn Horn']
+
+
+But sometimes we want something like a list but where we don't need to change anything. In this case we can use a Tuple (pronounced Toooopuhl or 2Pull).
+
+>>> this_is_a_tuple = ("Aconite", "Bat blood", "Unicorn Horn")
+>>> this_is_a_tuple
+('Aconite', 'Bat blood', 'Unicorn Horn')
+
+Now try:
+>>> this_is_a_tuple.remove(0)
+
+Didn't work huh?
+
+It's not much different than a list but it is generally better to use a Tuple if you don't need it to change and there are a few things you can do with Tuples that you can't with lists.
+
+Here is another example. Notice the brackets and parenthesis. This is a LIST of TUPLES.
+
+>>> potion_ingredients = [("Aconite", 3), ("Fairy Wing", 2), ("Unicorn Horn", 0.5)]
+

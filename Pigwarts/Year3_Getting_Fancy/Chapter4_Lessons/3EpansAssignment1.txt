@@ -1,8 +1,6 @@
 
-"You must create 50 stories and turn them in next Monday. Anybody who doesn't do this  
-will flunk and cause their house to lose 20 points!" What?! You think. That is 
-ridiculous to waste so much time writing stories while Hogwarts has been destroyed and 
-I need to find out who did it and how!
+"You must create 50 stories and turn them in next Monday. Anybody who doesn't do this will flunk and cause their house to lose 20 points!" What?! You think. That is 
+ridiculous to waste so much time writing stories while Hogwarts has been destroyed and I need to find out who did it and how!
 
 I know. I will figure out a way to use magic to write stories!
 
@@ -13,7 +11,7 @@ The following programs will help for this:
  	madlib.py (create story using variables)
  	1_magic_coin.py (randomly choose an item from a list)
 
-You can use thes commands to find them. 
+You can use these commands to find them. 
 	find ../../. -iname randloop2.py
 	find ../../. -iname madlib.py
 	find ../../. -iname 1_magic_coin.py
