@@ -1,0 +1,51 @@
+Let's get specific about variables. 
+
+-- Naming RULES --
+
+Variables names must start with a letter or an underscore, such as:
+_underscore
+underscore_
+
+The remainder of your variable name may consist of letters, numbers and underscores.
+password1
+n00b
+un_der_scores
+
+Names are case sensitive.
+case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable.
+
+Names cannot be reserved words (like while, for, break, etc)
+
+
+-- Naming Convention --
+
+lowercase with words separated by underscores as necessary to improve readability
+
+
+For each thing below, is it a LEGAL variable name? Is it a GOOD name?
+
+1. ingredient
+2. Ingredient
+3. cooking pot
+4. False
+5. cooking_pot
+6. best*ingredient
+7. _bestIngredient
+8. asdfqwerasdfhjl
+9. 1password
+
+Answers:
+1. LEGAL and GOOD 
+2. LEGAL but not GOOD
+3. Not LEGAL
+4. Not LEGAL
+5. Legal and good
+6. Not legal
+7. Legal but not good
+8. Legal but HIGHLY questionable
+9. Legal and good (maybe)
+
+
+
+
+

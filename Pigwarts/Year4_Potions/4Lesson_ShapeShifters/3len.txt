@@ -1,0 +1,12 @@
+
+Recall the standard data types:
+
+Numbers
+String
+List
+Tuple
+Dictionary
+
+len works on String, List, Tuple, and Dictionary and tells you how many items the variable value contains.
+
+Try it out on each type (including number).

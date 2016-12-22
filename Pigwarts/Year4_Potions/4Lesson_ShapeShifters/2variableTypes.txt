@@ -1,0 +1,41 @@
+
+Python has five standard data types −
+
+Numbers
+String
+List
+Tuple
+Dictionary
+
+You can only do certain things with certain types
+
+>>> varNum = 9														# Number
+>>> varString = "Hello"												# String
+>>> varList = ["apple", "bannana"] 									# List containing 2 Strings
+>>> varTuple = ("potatoes", 3) 										# Tuple containing a String and a Number
+>>> varDictionary = { "potato" : "vegetable", "orange" : "fruit" } 	# Dictionary with 2 elements
+
+### These are OK
+>>> print varNum / 9
+3
+>>> print varString + " there" 
+Hello there
+
+# These are not
+>>> print varString / 9
+HUH?? (TypeError: unsupported operand type(s) for /: 'str' and 'int')
+
+>>> print "Hello " + varNum 
+HUH?? (TypeError: cannot concatenate 'str' and 'int' objects)
+
+
+Variables can change types but this is not generally a good idea to do
+
+var1 = 1 						# Hi, I'm a Number
+var1 = "apple" 					# Now I'm a String!
+var1 = ["apple", "bannana"] 	# Ha, fooled you, I'm a List!
+
+
+
+
+

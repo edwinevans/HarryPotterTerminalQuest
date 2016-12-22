@@ -1,0 +1,27 @@
+
+Recall the standard data types:
+
+Numbers
+String
+List
+Tuple
+Dictionary
+
+in works on String, List, Tuple, and Dictionary and tells you if the collection contains the given value.
+
+For example:
+>>> "mockingbird" in { "mockingbird" : "sky", "worm" : "ground" }
+True
+
+>>> "sky" in { "mockingbird" : "sky", "worm" : "ground" }
+False
+
+Try it out on each type (including number).
+
+Numbers
+String
+List
+Tuple
+Dictionary
+
+Mia, you are getting quite familiar with the Python data types!
