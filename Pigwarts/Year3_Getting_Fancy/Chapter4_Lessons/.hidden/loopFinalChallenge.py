@@ -9,7 +9,7 @@ import random
 
 turtle.speed(0)
 
-for i in range(100000):
+for i in range(3000):
 	tup = (random.random(), random.random(), random.random())
 	turtle.pencolor(tup)
 	turtle.forward(random.random() * 100)

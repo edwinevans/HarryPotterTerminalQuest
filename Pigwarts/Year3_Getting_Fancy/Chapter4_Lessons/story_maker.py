@@ -1,6 +1,6 @@
 import random
 
-for i in range(10):
+for i in range(50):
 	protagonist = random.choice(["boy", "dog", "pig", "man", "grandpa"])
 	home = random.choice(["shoe", "pretty little house", "castle"])
 	place = random.choice(["Australia", "a zoo", "China", "Edwin's house"])

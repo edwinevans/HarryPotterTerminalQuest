@@ -1,0 +1,13 @@
+
+Like Tuples and Lists, Dictionaries can contain Dictionaries, etc.
+
+super_dictionary = { "HP": { "protagonist": "Harry", "villain":"Voldemort"}, 
+	  			     "Oz": { "protagonist": "Dorothy", "villian":"WitchOfTheWest" } }
+
+You can find the protagonist of HP like this:
+
+>>> super_dictionary["HP"]["protagonist"]
+
+How can you find the villian of Oz?
+
+super_dictionary["Oz"]["villain"]

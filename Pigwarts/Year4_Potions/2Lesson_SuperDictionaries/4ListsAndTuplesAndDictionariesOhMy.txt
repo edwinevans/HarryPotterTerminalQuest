@@ -1,0 +1,18 @@
+
+PART 1
+
+1. Create a list of some animals
+
+2. Create a list of tuples. Each tuple should contain the animal name and where you may find it, for example you may find a "mockingbird" in the "sky"
+
+3. This is similar to #2 but this time use a dictionary where the keys are the animal names and the value is where you may find them. ("key/value" in dictionary is analogous to "word/definition")
+
+4. Use the dictionary you created in #3 to find where you may see a "mockingbird"
+
+PART 2
+
+5. See if you can figure out how to use the list of tuples you created in #2 to find where you may find a "mockingbird".
+
+  HINT: You can use a for loop and break out of it when you have found the right tuple
+
+  HINT: You will need to check the first item in the tuple to see if you have found the right tuple

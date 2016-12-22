@@ -1,0 +1,2 @@
+Dictionary = {'well': 'a prefix that means thoroghly or properly', 'bat': 'a furry rodent. the only mamal that actually flies instead of just gliding', 'lap': 'to drink by using the tongue to take up liquid with quick movements', 'child': 'the young of human beings;a boy or girl'}
+

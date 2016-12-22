@@ -1,0 +1,18 @@
+
+Recall, this is what a tuple looks like:
+
+tuple = ("dragon", "unicorn", "dog")
+
+Tuples can also contain other tuples.
+
+my_super_tuple = ( ("dragon", "bob"), ("unicorn", "mary"), ("dog", "rex"))
+
+And those tuples can contain tuples:
+
+my_super_duper_tuple = ( ("dragon", ("bob", "jones")), ("unicorn", ("mary", "smith")), ("dog", ("rex", "rover")))
+
+You can do whatever you want:
+
+number_tree = (50, (20, (10, 30)), 80)
+
+Tuples have a couple other tricks up their sleave but this is plenty for your year. Next let's do a practice with Tuples (TuplesTubers) and then we will be getting close to being able to make potions!

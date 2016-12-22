@@ -1,8 +1,0 @@
-
-For today's class you're going to give instructions on how to prepare ingredients for the first stage of Polyjuice potion. You will need 20 grams of Fluxweed, 10 grams of Knotgrass, 5 grams of Lacewing flies.
-
-Create a list of tuples and a program to loop through them and print out:
-
-Fluxweed - 20 grams
-Knotgrass - 10 grams
-Lacewing - 5 grams

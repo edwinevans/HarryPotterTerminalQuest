@@ -1,4 +1,3 @@
-
 Welcome class. You've learned lists and tuples. Today you will learn another very useful type of variable (data structure).
 
 It's called a dictionary. Maybe you can guess why.
@@ -14,8 +13,9 @@ Here is something you can do with a dictionary:
 >>> this_is_a_dictionary['charms']
 'Flitwick'
 
->>> this_is_a_dictionary['charms'] = 'belfry'
+>>> this_is_a_dictionary['charms'] = 'Belfry'
 >>> this_is_a_dictionary
-{'herbology': 'Sprout', 'potions': 'Snape', 'charms': 'belfry'}
+{'herbology': 'Sprout', 'potions': 'Snape', 'charms': 'Belfry'}
 
+Try making some dictionaries in the Python interpreter and looking up values, adding values, and changing values. 
 

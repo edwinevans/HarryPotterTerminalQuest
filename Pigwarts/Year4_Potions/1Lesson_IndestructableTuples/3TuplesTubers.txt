@@ -1,0 +1,12 @@
+
+For today's class you're going to make Basic Mashed Potatos. First you will need to find and pay for all the ingredients. Potatoes cost $2.50, Milk costs $3.25, Butter costs $1.50.
+
+1. Create a tuple of tuples for each ingrediant. (Hint: you may want to do this in the interpreter)
+
+2. Loop through the tuple and print out each ingredient with its price. 
+
+3. Then print out the total cost to buy everything.
+
+Finally, create an alias (using Terminal) named "mashed" that will run the program you created. It should execute: python BMP.py          ^
+                                                   |
+                                                receipt
