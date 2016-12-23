@@ -1,0 +1,27 @@
+OMG Functions!
+
+Functions are a KEY part of programming. They allow you to bundle up work you have done and reuse it and then you can build functions on top of functions on top of functions to create complex behaviors and systems that behave like... magic.
+
+What does this magic look like? Here is the simplest function you can make:
+
+>>> def my_func():
+>>>		print "hello"
+
+Try it in the interpreter.
+
+It created the function. Now to call this function do:
+
+>>> my_func()
+
+That is pretty cool but it's even better than that. You can create a function that the caller can customize by providing parameters. Here is an example
+
+>>> def greet(name):
+>>>		print("Hello " + msg)
+>>>
+>>> greet("Bob")
+
+We've introduced a new concept into the world. Before "greet" meant nothing, but now our Python world now can greet people. greet("Mia"). greet("Ed"). 
+
+You now have the building blocks to apparate anything.
+
+Magic :)

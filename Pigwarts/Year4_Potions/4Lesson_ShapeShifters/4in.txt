@@ -23,5 +23,3 @@ String
 List
 Tuple
 Dictionary
-
-Mia, you are getting quite familiar with the Python data types!

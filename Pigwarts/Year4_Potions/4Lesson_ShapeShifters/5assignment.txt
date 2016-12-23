@@ -1,0 +1,28 @@
+OK, let's put together a bunch of stuff you have learned and create an application to create a self checkout system. This will be your fanciest program yet!
+
+The program should allow the customer to pick from a list of items that the store sells ("worm", "unicorn horn", "stinkweed"). A customer can keep adding items until they type done. After each item it should print the total amaount so far and at the end it should print a receipt. Worms cost $0.41, Unicorn Horns cost $1000.00 and Stinkweed costs $5.00. Use a dictionary to store all the information.
+
+Here is an example interaction.
+
+
+*** Checkout: Please add your items
+worm
+*** Checkout: 0.41
+worm
+*** Checkout: 0.82
+unicorn horn
+*** Checkout: 1000.82
+done
+*** 
+Your Receipt
+
+worm - 0.41
+worm - 0.41
+unicorn horn - 1000
+TOTAL: 1000.82
+
+Thank you for shopping at Mia's Emporium!
+***
+
+
+Extra: If the shopper types something that is not in the dictionary print out that that item is not available and prompt the shopper to try again.

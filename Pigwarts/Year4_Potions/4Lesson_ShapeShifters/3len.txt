@@ -1,12 +1,16 @@
 
 Recall the standard data types:
 
-Numbers
-String
-List
-Tuple
-Dictionary
+1. Numbers
+2. String
+3. List
+4. Tuple
+5. Dictionary
 
-len works on String, List, Tuple, and Dictionary and tells you how many items the variable value contains.
+len works on String, List, Tuple, and Dictionary. It will tell you how many items the variable value contains.
 
 Try it out on each type (including number).
+
+Example for String:
+
+>>> len("nihao")
