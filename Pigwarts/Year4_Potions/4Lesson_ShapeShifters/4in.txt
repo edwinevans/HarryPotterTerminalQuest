@@ -16,10 +16,19 @@ True
 >>> "sky" in { "mockingbird" : "sky", "worm" : "ground" }
 False
 
-Try it out on each type (including number).
+You can use this in dictionaries like:
+
+if "mockingbird" in dict:
+	result = dict["mockingbird"]
+else:
+	result = "unknown"
+
+Try it out on each type.
 
 Numbers
 String
 List
 Tuple
 Dictionary
+
+

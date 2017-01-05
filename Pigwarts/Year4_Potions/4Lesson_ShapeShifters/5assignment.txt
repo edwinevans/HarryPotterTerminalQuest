@@ -1,25 +1,33 @@
 OK, let's put together a bunch of stuff you have learned and create an application to create a self checkout system. This will be your fanciest program yet!
 
-The program should allow the customer to pick from a list of items that the store sells ("worm", "unicorn horn", "stinkweed"). A customer can keep adding items until they type done. After each item it should print the total amaount so far and at the end it should print a receipt. Worms cost $0.41, Unicorn Horns cost $1000.00 and Stinkweed costs $5.00. Use a dictionary to store all the information.
+The program should allow the customer to pick from a list of items that the store sells ("beetle eyes", "unicorn horn", "stinkweed"). A customer can keep adding items until they type done. After each item it should print the total amaount so far and at the end it should print a receipt. Beetle eyes cost 15 Knuts a scoop, Unicorn Horns cost 10 Galleons (49300 Knuts) each and Stinkweed costs 3 Sickles per pound (87 Knuts). Use a dictionary to store all the information.
+
+1 Galleon = 17 Sickles
+1 Sickle = 29 Knuts
 
 Here is an example interaction.
 
 
+Here's what you can buy:
+beetle eys - 15 Knuts
+unicorn horn - 10 Galleons
+Stinkweed - 3 Sickles
+
 *** Checkout: Please add your items
-worm
-*** Checkout: 0.41
-worm
-*** Checkout: 0.82
+beetle eyes
+*** Checkout: 15 Knuts
+beetle eyes
+*** Checkout: 30 Knuts
 unicorn horn
-*** Checkout: 1000.82
+*** Checkout: ?? Knuts
 done
 *** 
 Your Receipt
 
-worm - 0.41
-worm - 0.41
-unicorn horn - 1000
-TOTAL: 1000.82
+beetle eyes - 15 Knuts
+beetle eyes - 15 Knuts
+unicorn horn - ?? Knuts
+TOTAL: ?? Knuts
 
 Thank you for shopping at Mia's Emporium!
 ***
