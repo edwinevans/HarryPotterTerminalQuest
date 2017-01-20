@@ -1,0 +1,27 @@
+Hermione knocked on Malfoy's private quarters promptly at 8am the next day. 
+
+To begin his first lesson she said "Programming is about telling the computer *exactly* what to do according to the rules that have been programmed into it. Doing things that may seem simple involves a series of steps and those steps are themselves made up of many steps and so forth." She took out her laptop. She opened a Terminal window. Malfoy said:
+
+	"Wait! How did you do that? How did all that stuff get drawn on the screen? What's the trick?"
+	"Well, the screen is made up of thousands of little lights and whether a light is on or off depends on whether a voltage in a memory transistor is high or low. If you look really really close you can see the lights are red, green, and blue and mix together to form all the different colors"
+
+
+Malfoy thought. This seemed like a different way of looking at things than his father's teachings. Could looking at things this way be useful? He said "What is the light made of?" Hermione said "Well, that's a bit complicated. Light is an electromagnetic wave. It's not exactly like the kind of stuff we can see and touch.... and yet... it's not exactly like magic either... I think." 
+
+Hermione took a shot at an interesting question she hoped Malfoy could know something about:
+
+	"Do you know how magic works?"
+	"Of course I know how magic works." What kind of dumb muggle question is that, he thought but didn't say. "If you execute the movements preceisely and speak the correct words the corresponding spell will be invoked."
+	"But *how* does it execute the spell? How is it possible to lift a weight by casting Wingardium Leviosa?"
+	"That's what Wingardium Leviosa does. It's one way to lift a weight. It's not the only way, just the purest way, the way that doesn't involve getting all sweaty and smelly. Though I get what you're asking. But there is always somewhere where explanations 'bottom out'. Just like, how do you lift a weight using your arms?"
+	"Well," Hermione said "You have muscles and they apply a force larger than the force of gravity but in the opposite direction"
+	"And how do they do that?"
+	Hermione shrugged and gave a typical Muggle answer, "The muscles are composed of thousands of fibers made of myofibrils proteins that contain actin and myosin proteins and the brain sends an electrical signal that triggers the fibers to contract and generate the force to lift the weight."
+	"And what made the brain send the signal? Is that not the same as casting a spell?"
+
+Hermione paused, sensing a possible solution to her dillemma. "I'll tell you that, if you're sure you wish to know, but it may take some time. If I teach you that, can I not teach you to program as I promised to do?"
+	"No, you promised to teach me programming and I want you to teach me that first. Once that is done perhaps you can teach me that."
+
+Hermione began to teach Malfoy some basic commands like "cd" and "ls". Malfoy was a good student but their time was soon up.
+
+Hermione had another meeting to go to. 

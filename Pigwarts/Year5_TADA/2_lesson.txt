@@ -1,0 +1,1 @@
+Make a function that has parameters AmountOf and Denomination (string) and converts to number of Knuts.

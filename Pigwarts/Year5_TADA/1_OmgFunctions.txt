@@ -5,7 +5,7 @@ Functions are a KEY part of programming. They allow you to bundle up work you ha
 What does this magic look like? Here is the simplest function you can make:
 
 >>> def my_func():
->>>		print "hello"
+...		print "hello"  WRONG!!!! I Fixed it!
 
 Try it in the interpreter.
 
@@ -16,7 +16,7 @@ It created the function. Now to call this function do:
 That is pretty cool but it's even better than that. You can create a function that the caller can customize by providing parameters. Here is an example
 
 >>> def greet(name):
->>>		print("Hello " + msg)
+>>>		print("Hello " + name)
 >>>
 >>> greet("Bob")
 
@@ -24,4 +24,5 @@ We've introduced a new concept into the world. Before "greet" meant nothing, but
 
 You now have the building blocks to apparate anything.
 
-Magic :)
+Magic :)  /	(:(>
+:(>

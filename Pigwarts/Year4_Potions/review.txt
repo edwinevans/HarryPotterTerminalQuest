@@ -1,0 +1,28 @@
+=== Python Types ===
+
+- Number
+- String
+- List
+- Tuple
+- Dictionary
+
+To create an empty:
+
+String: "" or ''
+List: []
+Dictionary: {}
+
+Use parenthesis to create Tuples
+
+
+=== Reading input ===
+
+some_variable = raw_input("prompt goes here")
+
+=== Control Statements ===
+
+for some_variable in some_collection:
+
+while (True):
+
+if some_variable:

@@ -18,9 +18,13 @@ while True:
 	item_str = raw_input() # Example "stinkweed"
 	if item_str == "done":
 		break
-	items_bought.append(item_str)
-	the_tuple = buyables[item_str] # 87
-	print "Checkout: " + str(the_tuple[2]) + " knuts"
+
+	if item_str in buyables:
+		the_tuple = buyables[item_str] # 87
+		print "Checkout: " + str(the_tuple[2]) + " knuts"
+		items_bought.append(item_str)
+	else:
+		print "We are sorry to say that we do not sell this item."
 
 print "Checkout: Ok, done"
 
@@ -29,7 +33,8 @@ print "*** Your Reciept"
 
 for item in items_bought:
 	print item + " - " + str(buyables[item][2]) + " knuts."
-
+	total = total + (buyables[item][2])
+print "TOTAL: " + str(total) + " knuts."
 # Checkout: Please add your items
 # unicorn horn
 # *** Checkout: 4930 Knuts
@@ -47,7 +52,8 @@ for item in items_bought:
 # Thank you for shopping at Mia's Emporium!
 # ***
 
-
+# :} :{} ^^ {}:    :)
+#        \/
 
 
 #if item in buyables:
