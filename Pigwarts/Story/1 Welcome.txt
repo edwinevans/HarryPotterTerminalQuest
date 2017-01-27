@@ -1,0 +1,20 @@
+
+
+Greetings Mia,
+
+Welcome to Pigwart's! 
+
+After Hogwart's was burned to the ground by an Evil Wizard, this new school of magic was created. You will be a first year wizard and your first assignment is to:
+
+1. Find the Evil Wizard
+2. Learn the Evil Wizard's weakness
+3. Destroy the Evil Wizard
+4. Recreate Hogwart's
+
+My name is Spells and I'll be helping you out, woo woo. We have magical spells that work inside the Pigwart's and I will teach them to you.
+
+First learn the Basic Spells. Type: cat basic_spells.txt
+
+
+
+ 
