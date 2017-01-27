@@ -1,0 +1,32 @@
+>> Search for some text in the current directory and all subdirectories
+
+>> How can you see the end of the contents of a file (last few lines)?
+
+>> What is the command to change directories?
+
+>> What is a command to display the contents of a file
+
+>> How do you clear the terminal?
+
+>> How can you ADD the current date to the end of a file named "bar.txt"?
+
+>> How can you create/replace the contents of "bar.txt" to have the current date?
+
+>> How do you see the previous commands that you have executed?
+
+---
+
+>> What is a command to get the current path (directory) AND make a cow say it?
+
+>> How can you search for the word "apple" in a file named "bar.txt"?
+
+>> Search your command history and print out how many lines contain "sublime". HINT: You may want to use TWO pipes.
+
+>> How can you rename a file named bar.txt to bar2.txt?
+
+>> How can you make it so that you can type "dog" to execute "cat"
+
+>> What is the command to delete a file?
+
+>> How can you execute a file named "foo.py" which contains Python code
+

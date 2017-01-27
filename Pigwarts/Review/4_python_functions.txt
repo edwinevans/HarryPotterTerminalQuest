@@ -1,0 +1,2 @@
+>> What is a Python function to read input from the user?
+

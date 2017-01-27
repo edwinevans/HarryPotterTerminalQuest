@@ -1,0 +1,18 @@
+>> How can you loop forever?
+
+>> How can you do one thing or a different thing depending on the truth of an expression (e.g. whether the user entered "accio")
+
+>> If you are looping forever, how can you get out of this "infinite loop"?
+
+>> How can you loop through the numbers from 1 to 10
+
+>> How can you loop through all the items in a list
+
+
+Compare numbers
+
+Equal: ==
+Greater: >
+Greater or equal: >=
+
+

@@ -1,0 +1,18 @@
+Time to get your house elf Turtle to stock the shelves at Mia's emporium!
+
+Create some functions to draw all the items you will sell. 
+
+The function can be named stock_shelf and have parameters for the position to start placing items, name of the item, how big it should be (in turtle units), and how many items to show. 
+
+It could be called like: 
+
+stock_shelf(0, 0, "wand", 100, 20) # 20 wands that are 100 units tall (You can make wands thin rectangles or something else)
+
+You can have a separate function like:
+
+draw_wand(20) # draw a wand that is 20 units big. position your turtle before calling
+
+Tips:
+1. You can start with the draw_wand function and test that out to get started
+2. Put "import turtle" at the top and turtle.done() at the bottom
+3. Search "python turtle" or such for more help on using turtle object

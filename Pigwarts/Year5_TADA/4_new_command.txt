@@ -1,0 +1,3 @@
+Search for some text in the current directory and all subdirectories:
+	grep -r "apple" .
+

@@ -1,0 +1,4 @@
+>> How do you create a variable of type String in Python?
+
+>> List five Python data types
+
