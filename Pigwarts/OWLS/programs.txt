@@ -1,0 +1,12 @@
+>> Write a program that prints numbers from 1 to 20 using a loop
+
+>> Given information on some people's age, write a program where somebody can enter a name and the program will say their age. Mary is 7. Bob is 9. Cecilia is 12. If the name is not found the program should say Not Found.
+
+>> Create a program that draws an equilateral triangle and spins it around. There should be 2 functions. One to draw a triangle with a given size. One to draw all the triangles and taking a parameter for how much angle to turn each time.
+
+>> Change the above program to make the triangle get larger as it spins
+
+
+EXTRA CREDIT
+
+>> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz” 

@@ -1,0 +1,43 @@
+-- Terminal --
+
+>> How do you list files in a directory?
+
+>> How do you show the first few lines in a file?
+
+>> How can you make a cow say "Moooo"?
+
+>> How can you search the commands you have recently typed for one named "cat"?
+
+>> How can you write the current date into a file named "now.txt" 
+
+>> How can you make it so that you can type "lsa" to make it run "ls -a"
+
+>> How can you change the name of a file from "now.txt" to "before.txt"
+
+>> How can you delete the file "before.txt"
+
+
+--- Python ---
+
+>> List 5 different Python data types
+
+>> Show example of creating each of the types
+
+>> For each variable say whether it is a legal name and if it is a good name
+
+customer_name
+*favorite_cutomer
+PARTYTIME
+fizzykabooooddle12389
+MeetingTime
+
+>> What is the difference between a tuple and a list?
+
+>> How do you convert a string into an integer?
+
+>> Which of these are legal strings?
+
+"bob's diner"
+'he said "it's sure hot out!" loudly'
+":<
+":)"
