@@ -16,6 +16,8 @@
 
 >> How can you delete the file "before.txt"
 
+>> What is the command to change directories
+
 
 --- Python ---
 
@@ -23,7 +25,7 @@
 
 >> Show example of creating each of the types
 
->> For each variable say whether it is a legal name and if it is a good name
+>> For each variable below say whether it is a legal name and if it is a good name
 
 customer_name
 *favorite_cutomer
@@ -33,7 +35,7 @@ MeetingTime
 
 >> What is the difference between a tuple and a list?
 
->> How do you convert a string into an integer?
+>> How do you convert the string "123" into an integer?
 
 >> Which of these are legal strings?
 
