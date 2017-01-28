@@ -1,3 +1,44 @@
+*** Compare numbers
+
+Equal: ==
+Greater: >
+Greater or equal: >=
+Less than: >
+Less than or equal: >=
+
+*** Check for existence of item in a collection (list/tuple/dictionary)
+
+Item existence: "in" (Example: if apple in fruits)
+
+*** Do something, or do something else...
+
+if x == y:
+	print "equal"
+else
+	print "not equal"
+
+*** Looping
+
+for: loop through items in a collection or range
+
+for fruit in fruits:
+	print fruit
+
+for num in range(10): 
+	print num
+
+Use "break" to jump out of a loop
+
+x = 0
+while (True):
+	if x == 10:
+		break
+	x = x + 1
+
+==========
+
+QUESTIONS
+
 >> How can you loop forever?
 
 >> How can you do one thing or a different thing depending on the truth of an expression (e.g. whether the user entered "accio")
@@ -9,10 +50,5 @@
 >> How can you loop through all the items in a list
 
 
-Compare numbers
-
-Equal: ==
-Greater: >
-Greater or equal: >=
 
 
