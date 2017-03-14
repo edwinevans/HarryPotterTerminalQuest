@@ -3,8 +3,8 @@
 Equal: ==
 Greater: >
 Greater or equal: >=
-Less than: >
-Less than or equal: >=
+Less than: <
+Less than or equal: <=
 
 *** Check for existence of item in a collection (list/tuple/dictionary)
 
@@ -14,7 +14,7 @@ Item existence: "in" (Example: if apple in fruits)
 
 if x == y:
 	print "equal"
-else
+else:
 	print "not equal"
 
 *** Looping
@@ -41,14 +41,25 @@ QUESTIONS
 
 >> How can you loop forever?
 
+while True:
+
 >> How can you do one thing or a different thing depending on the truth of an expression (e.g. whether the user entered "accio")
+
+if
+
+else
 
 >> If you are looping forever, how can you get out of this "infinite loop"?
 
+break
+
 >> How can you loop through the numbers from 1 to 10
+
+for i in range(1,11)
 
 >> How can you loop through all the items in a list
 
+for item in variable_name:
 
 
 
