@@ -5,7 +5,7 @@
 
 user_word = raw_input('Type a word here: ')
 
-if len(user_word) <= 5:
+if len(user_word) <= 5:  
 	print "That's a short word"
 
 else:

@@ -1,4 +1,11 @@
 >> How do you create a variable of type String in Python?
 
+You write what you want to call the variable and then an equals sign, then you type what you want the string to be.
+
 >> List five Python data types
 
+string
+number
+tuple
+dictionary
+list

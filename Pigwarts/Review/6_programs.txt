@@ -1,35 +1,43 @@
 Do on your own:
 
 >> Ask the user for a number. Print out the number that is double that number.
-
+  /
+\/
 >> Ask the user for a word. If the length of the word is over 5 letters, print "That's a long word!", otherwise print "That's a short word". You can find the length of a string using the "len" function, for example: len("delicious") # returns 9
-
+  /
+\/
 -- 
+                                    /
+>> Draw a square using Turtle     \/
 
->> Draw a square using Turtle
-
->> Ask the user for a number, and then another number. Print out the sum of the two numbers that the user entered.
-
+>> Ask the user for a number, and then another number. Print out the sum of the two numbers that the user entered.    /
+                                               \/
 --
 
 >> Create a list of the names: Harry, Hermione, Ron
-
+  /
+\/
 >> Modify the program to greet each person by looping through the list. 
 	Hello Harry
 	Hello Hermione
 	Hello Ron
-
->> Modify the program to use a function to do the greeing
-
+  /
+\/
+>> Modify the program to use a function to do the greeting
+  /
+\/
 --
 
 >> Draw some squares using Turtle. Start with a small square and then draw larger and larger squares. (Bonus: Have the squares all have the same center point)
 
 >> Ask the user for a number, and then another number. Print out the product of the two numbers that the user entered.
-
+  /
+\/
 --
 
 >> Keep asking the user for numbers until they enter "s". Then print the sum of all the numbers they entered
+  /
+\/
 
 
 
