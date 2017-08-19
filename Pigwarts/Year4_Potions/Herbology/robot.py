@@ -5,10 +5,11 @@ class Robot:
         self.pots = []
         self.max_pot_level = 2
         self.current_pot = 0
-        self.pots.append({"level": 1})
+        self.pots.append({"level": 0})
         self.pots.append({"level": 0})
         self.pots.append({"level": 2})
         self.pots.append({"level": 1})
+        self.show_garden()
 
     def show_garden(self):
         print "---"
@@ -19,8 +20,8 @@ class Robot:
 
     def move_right(self):
         print "Move right"
-        if self.current_pot == len(self.pots) - 1:
-            return False
+        # if self.current_pot == len(self.pots) - 1:
+        #     return False
         self.current_pot += 1
         self.show_garden()
         return True
@@ -32,10 +33,13 @@ class Robot:
             raise Exception("Oh no! You overfilled the pot!!")
         self.show_garden()
 
-    def is_current_pot_full(self):
+    def pot_needs_more_water(self):
         level = self.pots[self.current_pot]["level"]
-        return level == self.max_pot_level
+        return level != self.max_pot_level
 
+
+    def went_past_last_pot(self):
+        return self.current_pot == len(self.pots)
 
 # while True:
 #     while not robot.is_current_pot_full():

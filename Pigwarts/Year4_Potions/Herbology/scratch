@@ -1,0 +1,4 @@
+while not robot.went_past_last_pot():
+    while robot.pot_needs_more_water():
+        robot.add_water()
+    robot.move_right()
