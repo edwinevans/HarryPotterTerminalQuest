@@ -1,0 +1,100 @@
+
+"Don't worry" he said "I won't abuse it". He gave a big smile and Hermione couldn't help but smile in return. That was a smile that could cause trouble. "Ok, I'm thinking I can try something like..."
+
+
+<< 
+BEGIN OPTIONAL
+PG-13 for Recursive Functions 
+>>
+
+
+Hermione said. "Draco, watch my hands carefully". Harry watched her type. Hermione said "I'll start with something simple". She typed out slowly. "This program will multiply the numbers from... one to ten". She held one finger for "one" and then ten for "ten".
+
+f a 0 = a
+f a n = f (n * a) (n - 1)
+fac = f 1
+facstr x = let n = fac x in show n
+main = do  
+    let answer = facstr 10 in putStrLn ("Answer is " ++ answer)  
+
+She lifter her index finger and dropped it down on the Enter key. The program printed out the answer. "As you can see it printed out ten factorial which as you know from basic Arithmency is three million, six-hundred-twenty-eight thousand and eight hundred."
+
+"Now just read from the top. What does the first line say? f a 0 defines a word f that takes two inputs a and 0 and matches if the second input is 0 which means we're done and this word means really just the second input. The second line" she continued as if she were speaking to a small child "defines a word which is defined as the word which is itself and the product of its two inputs and one minus its third. Then you just partially define a word to kick it off from the bottom and finally convert to a string. You can use different words for f or a or n, just like when you cast a spell you can generally move your wrist up higher as long as you also move it down lower by the same..."
+
+"Hold on a sec. The word is defined as a word that is itself. That makes no...""
+
+"Yes, you've got it! Just like a spiral! Let's move on to something more interesting. We can  define primes as follows...""
+
+primes = filterPrime [2..] 
+  where filterPrime (p:xs) = 
+          p : filterPrime [x | x <- xs, x `mod` p /= 0]
+
+"We define filterPrime...""
+
+"Hermione" Harry interrupted "Draco will never fall for this in a million years. Even if you were more Slytherin he'd probably just let you talk for a few minutes and then smack you on the head."
+
+"Hm... you think?" Hermione said.
+
+They said nothing for a while.
+
+Then Harry asked, "Was that real code? Is that really how you'd do it?"
+
+"No, but you knowing this could end up destroying all of magical Britain. And remember also, time is of the essence. Taking time now to teach you this could lead to the downfall of magical Britain."
+
+Harry gave her a big smile. "Come on. I won't tell anyone"
+
+Hermione sighed and smiled. "Well, I'm not perfect", also thinking he could just learn this on Khan Academy so whatever...
+
+"Let's first write the same code in a way you're familiar with." Hermione's fingers moved deftly over the keyboard:
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+"Now, if you call factorial(0), what will it return?""
+
+Harry answered "one".
+
+"Good. Now how about factorial(1)? factorial(2). As you can see the call to itself is acting as a counter. Each time it calls itself it is calling with one less than it did before. It is also accumulating the product in the return value. When a function calls itself it is called a recursive function."
+
+"In this case it's pretty pointless since it would be better to just write:"
+
+def factorial(n):
+	result = 1
+	for i in range(1, n):
+		result *= i
+	return result
+
+"This is probably more how you could calculate it if going through it in your head doing each step... unless you used Arithmency in which case it would be like:" 
+
+	math.factorial(n)
+
+"Coing back to Haskell" she continued "the step-wise solution would be:"
+
+factorial n = foldr (*) [1..n]
+
+You see now you've done it in one line without needing to create any variable. We just apply the * operation over the numbers from one to n. But if your goal is merely to calculate the factorial, you could do this more straightforwardly with product [1..n]. It's not quite Arithmency but neither is it so bad as spelling out each detail, so to speak.
+
+
+<END OPTIONAL>
+
+
+Hermione said "Okay then, since tricking Malfoy isn't an option I think it's pretty clear what we need to do."
+
+Harry and Ron nodded. Their adult adventure would soon be over. And war could be coming very soon. But they could no longer give the Slytherin any assistance or time to build up their forces. If a war coming sooner was the best option then that is what it would need to be. And perhaps it needn't come to that.
+
+Hermione said "Anything else? No? OK then let's go to Dumbledore now and say we need to speak to him, it's an emergency."
+
+
+
+
+
+
+
+
+
+
+
+
