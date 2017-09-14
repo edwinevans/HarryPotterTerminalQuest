@@ -1,0 +1,4 @@
+Create an alias so that you can type "cdpr" to jump to the directory "~/HarryPotterTerminalQuest/Pigwarts/Review"
+
+Create a program to decode "secret language" words where:
+	"ellohey" 
