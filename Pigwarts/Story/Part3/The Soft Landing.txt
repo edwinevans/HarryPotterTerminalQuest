@@ -1,0 +1,69 @@
+The Soft Landing
+
+
+WARNING: This is disgusting. DO NOT READ THIS if you have a weak stomach or are over the age of ten.
+
+
+(This part of the story gives some background on how Hagrid came to be in the possession of three Miniature Scottish Hell Hounds. How it explains this and why it turned out to be important is covered elsewhere.)
+
+You may think an overpopulation of dragons decorating the sky with majestic flying creatures would be really cool, but if you think that then you have NO IDEA what a nuisance dragons can be. 
+
+First there is the sound. Their shrieks sound like the cries of cursed babies after their Mommies take away their favorite toys. Dragons, like bullfrogs, can go for months without sleeping. They shriek throughout the day. They shriek throughout the night. They always seem to shriek just when you're about to fall asleep. It's impossible to think when they're screeching and even more impossible after a poor night's sleep.
+
+Second there is the smell. Dragon poop doesn't smell not like dog poop. No. Dog poop is like roses compared to dragon poop. When it comes to the exact quality of the smell, it's hard to describe. It's not like skunk spray which has a gassy, chemical smell. Dragon poo smells 100% organic. Maybe 200%. The spray from a skunk can make you puke if it gets in your mouth. Dragon poo can make you puke if you just smell a whiff of it. Nobody has really wanted to investigate WHY it is that dragon poo smells so awful but it's speculated that it's related to a bacteria that lives within their bodies and excretes a gas that combines with oxygen and a small spark made by snapping their teeth together to create fire.
+
+Dragon poo isn't like rabbit droppings where you can pick it up with your fingers and not get them dirty. No. Dragon poo is a quintessential example of "mush". Soft, lumpy, a little liquidy.
+
+There is however one respect in which dragons are similar to other animals in the poop department. Dragons, like Hippopotamuses, create giant mounds of poo by doing their business over and over in the same spot. The reason why Hippos do this is to convey information about their health and reproductive status. The reason why dragons do this nobody knows. Hippo dung piles, technically known as "dung middens", can grow several feet wide and may reach as high as the Hippos' butts. But then Hippos haven't figured out any way to build them any taller. Dragons on the other hand have the advantage that they can fly. They build their poo piles higher and higher and higher. They poop in mid-air with uncanny accuracy. Their piles can grow to a height of over 10 feet or more -- that's the height of a house! Imagine what a steaming pile of poop like that must look like. Imagine what it must smell like. Imagine what it would be like if your job was to clean it up!
+
+But despite all that, there was a strict taboo against killing dragons. If the only problem was the sound and smell perhaps people would have just suffered on. But dragons can also be dangerous. It was after one incident in particular that the people decided something must be done. (The action they took is covered later.)
+
+The incident involved a young witch named Elizabeth Snow. 
+
+It was the beginning of the school year. Elizabeth loved to fly on her broom and it was a beautiful sunny day. She was wearing her spanking new uniform and had just finished her breakfast feast of corned beef, hash, pancakes drenched in syrup, bacon, and lots of her favorite drink, Pomegranate juice. The sky was blue and free of clouds. She felt wonderful.
+
+On this fateful flight Elizabeth spotted a small dragon in the distance. She flew towards it to take a closer look. Then she thought better of it and abruptly turned in a different direction. For some reason the dragon decided to charge at her. Perhaps it was offended by her sudden turn. Elizabeth hunkered down and flew as fast as she could but the dragon had it in for her. It sped towards her and got closer and closer. When it got right behind her it snapped its teeth shut to make a spark and hissed out a stream of fire. Elizabeth wasn't burned badly but the bristles on her broom caught fire. 
+
+This was a serious problem. A broom without bristles is a stick and a stick is as useful for flying to a witch as it is to a muggle.
+
+At the time of the attack Elizabeth was flying 250 feet above the ground. When something falls towards earth it will accelerate at a constant rate of 9.8 meters per second per second. After one second it will be travelling at 22 miles per hour. After 2 seconds it will be travelling 44 miles per hour, after 3 seconds 66 miles per hour (the speed of a car on a freeway), and so on. Using some basic arithmancy you can divine that it will take a little over 4 seconds to fall to the earth from 250 feet. When you hit the ground your body will decelerate from about 100 miles per hour to 0 miles per hour in a tiny fraction of a second. During this tiny fraction of a second the softer parts of your body will continue moving after the harder parts have stopped. This is not good. Your brain will get smooshed into your skull. Your lungs and heart will get shredded through your ribs. Your soft tissue will rip off your bones. Your body will crumple into a bloody mess in a process that the medical profession refers to as going "splat"
+
+But Elizabeth Snow was very lucky this day (depending on your definition of lucky). As the bristles on her broom burned up she spotted an enormous dragon dung midden. She raced towards it. When the bristles on her broom had all burned up there was nothing holding her up and she plunged head over heels, tumbling, towards the pile.
+She was of course breathing fast in her terror, but before she hit the pile she clamped her mouth shut and grabbed her nose as if it was the golden snitch in the world Quidditch finals. 
+
+She collided with the poo at 102 miles per hour. The poo slowed her fall. As the poo beneath her compressed it pushed harder into her flailing, spinning body and painted her new uniform a solid brown. She fell through the entire pile and then was barely moving when she hit the ground. She held her breath and half ran, half swam through the giant pile of mush, her brain rapidly consumed oxygen as she struggled to escape. The instant she poked her head out she sucked in a giant breath of stink. Then she vomited. Then she collapsed into her vomit. You can picture it all: a great gasp of air in, an epic spew of vomit out, a face going splunk.
+
+When she finally staggered back to school, people didn't rush out to greet her but they shouted from a distance "Oh my god, what happened?! You look terrible! You smell awful! Are you OK??". Elizabeth Snow's whole world -- her thoughts -- had collapsed from paragraphs and sentences, from phrases and words to a single word. A single syllable. She croaked it out as loud as she could before fainting. "Baaaaathhh".
+
+
+
+--
+
+Calculations
+
+g_in_feet_per_second_per_second = 32 # On earth, gravity always pulls at 32 feet per second per second
+g_in_feet_per_hour_per_second = 32 * 60 * 60 # 32 feet per second per second = 115,200 feet per hour per second
+g_in_mph_per_second = g_in_feet_per_hour_per_second / 5280.0  # There are 5280 feet in a mile so 115,200 feet per hour per second equals about 22 miles per hour change per second
+
+# If the change in speed is constant then magic says the change in distance is the square of the time times half
+# d = 0.5 * g * (s * s)
+def get_distance_fallen_in_n_seconds(n):
+    return 0.5  *  (g_in_mph_per_second * (n * n))
+
+# Let's print a table of time/distance/speed
+for seconds in xrange(0, 6):
+    print "After {} seconds, distance={} feet, speed={} mph".format(
+            seconds, get_distance_fallen_in_n_seconds(seconds), seconds * g_in_mph_per_second) 
+
+# After 0 seconds, distance=0.0 feet, speed=0.0 mph
+# After 1 seconds, distance=10.9090909091 feet, speed=21.8181818182 mph
+# After 2 seconds, distance=43.6363636364 feet, speed=43.6363636364 mph
+# After 3 seconds, distance=98.1818181818 feet, speed=65.4545454545 mph
+# After 4 seconds, distance=174.545454545 feet, speed=87.2727272727 mph
+# After 5 seconds, distance=272.727272727 feet, speed=109.090909091 mph
+
+
+
+Additional Note
+
+This story is somewhat unrealistic as children's stories tend to be. She would have, of course, hit the dung pile at less than 102 mph. The equation used is a vast oversimplification of what happens in the real world.
